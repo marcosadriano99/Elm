@@ -62,8 +62,6 @@ x = "hello, world"
 
 <h3>Estruturas de controle condicional</h3>
 
-É usado o <i>if</i> e <i>else</i>.
-
 ~~~~
 if True then "hello" else "world"
 
@@ -72,6 +70,24 @@ if True then "hello" else "world"
 if False then "hello" else "world"
 
 "world" : string
+~~~~
+
+<h3>Registros</h3>
+
+~~~~
+
+point = { x = 3, y = 4 }
+{ x = 3, y = 4 } : { x : number, y : number1 }
+
+point.x
+3 : number
+
+bill = { name = "Gates", age = 57 }
+{ age = 57, name = "Gates" } : { age : number, name : string }
+
+bill.name
+"Gates" : string
+
 ~~~~
 
 <h3>Estruturas de repetição</h3>

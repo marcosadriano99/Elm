@@ -13,16 +13,11 @@ Paulo Victor Freire Ribeiro Damasceno - <b>GitHub nickname:</b> pvictorfreitas -
 
 <h2>Instalação e uso</h2>
 
-<p>Para fazer o download do <b>Rhino</b>, o seu mantenedor, a <i>Mozzila Foundation</i>, disponibiliza um site onde é possível encontrar várias versões da linguagem que podem ser baixadas para o computador. Após terminar o download, é necessário descompactar o arquivo.</p>
-
-<p> Para iniciar, digite o seguinte código:</p>
+<p>Para ... </p>
 
 ~~~~
-@echo off
 
-java -jar js.jar
 
-^Z
 ~~~~
 
 

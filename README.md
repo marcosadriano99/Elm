@@ -66,9 +66,11 @@ x = "hello, world"
 
 ~~~~
 if True then "hello" else "world"
+
 "hello" : string
 
 if False then "hello" else "world"
+
 "world" : string
 ~~~~
 

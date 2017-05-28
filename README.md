@@ -29,6 +29,7 @@ Paulo Victor Freire Ribeiro Damasceno - <b>GitHub nickname:</b> pvictorfreitas -
 
 ~~~~
 x = "hello, world"
+
 "hello, world" : string
 ~~~~
 
@@ -64,10 +65,11 @@ x = "hello, world"
 É usado o <i>if</i> e <i>else</i>.
 
 ~~~~
-var x = "hello world";
+if True then "hello" else "world"
+"hello" : string
 
-if (x === "hello, world") print ("true");
-else print ("false");
+if False then "hello" else "world"
+"world" : string
 ~~~~
 
 <h3>Estruturas de repetição</h3>

@@ -77,15 +77,19 @@ if False then "hello" else "world"
 ~~~~
 
 point = { x = 3, y = 4 }
+
 { x = 3, y = 4 } : { x : number, y : number1 }
 
 point.x
+
 3 : number
 
 bill = { name = "Gates", age = 57 }
+
 { age = 57, name = "Gates" } : { age : number, name : string }
 
 bill.name
+
 "Gates" : string
 
 ~~~~

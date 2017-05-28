@@ -25,12 +25,11 @@ Paulo Victor Freire Ribeiro Damasceno - <b>GitHub nickname:</b> pvictorfreitas -
 
 <h3>Variáveis e constantes - inicialização e comandos de atribuição</h3>
 
-<p>Para declarar variáveis, é utilizado o comando <i>var</i>, e, para atribuir, o símbolo de <i>=</i>, da mesma forma que no JavaScript.</p>
+<p>Para declarar variáveis, é necessário apenas colocar o nome da variável e atribuir, usando o símbolo de <i>=</i>.</p>
 
 ~~~~
-var x = "hello, world"
+x = "hello, world"
 
-print (x)
 hello, world
 ~~~~
 

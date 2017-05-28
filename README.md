@@ -20,8 +20,15 @@ Paulo Victor Freire Ribeiro Damasceno - <b>GitHub nickname:</b> pvictorfreitas -
 
 ~~~~
 
+<h2>Elm funcional</h2>
 
-<h2>Sintaxe básica</h2>
+<li>Sem erros de tempo de execução na prática. Não null. Não undefinedé uma função.</li>
+<li>Mensagens de erro amigáveis ​​que o ajudam a adicionar recursos mais rapidamente.</li>
+<li>Código que bem arquitetado permanece bem arquitetado como seu aplicativo cresce.</li>
+<li>Validação semântica automaticamente aplicada para todos os pacotes Elm.</li>
+</ul>
+
+<h2>Sintaxe</h2>
 
 <h3>Variáveis e constantes - inicialização e comandos de atribuição</h3>
 
@@ -95,57 +102,3 @@ bill.name
 ~~~~
 
 <h3>Estruturas de repetição</h3>
-
-<h5>While</h5>
-
-~~~~
-var x = 0;
-
-while (x <= 5){x++; print("teste")}
-teste
-teste
-teste
-teste
-teste
-teste
-~~~~
-
-<h5>Do while</h5>
-
-~~~~
-var x = 0;
-
-do{print(x); x++;} while(x <= 5);
-0
-1
-2
-3
-4
-5
-5
-~~~~
-
-<h5>For</h5>
-
-~~~~
-for(var x = 5; x >= 0; x--) print(x);
-5
-4
-3
-2
-1
-0
-~~~~
-
-<h3>Vetores e strings</h3>
-
-~~~~
-var x = ["email um", "email dois", "email tres"];
-
-for (var y = 0; y < x.length; y++) print(x[y]);
-email um
-email dois
-email tres
-~~~~
-
-<h2>Sintaxe funcional</h2>

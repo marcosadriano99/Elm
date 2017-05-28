@@ -29,8 +29,7 @@ Paulo Victor Freire Ribeiro Damasceno - <b>GitHub nickname:</b> pvictorfreitas -
 
 ~~~~
 x = "hello, world"
-
-hello, world
+"hello, world" : string
 ~~~~
 
 <h3>Operadores relacionais e lógicos</h3>

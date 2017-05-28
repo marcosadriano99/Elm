@@ -22,7 +22,7 @@ Paulo Victor Freire Ribeiro Damasceno - <b>GitHub nickname:</b> pvictorfreitas -
 
 <h2>Elm funcional</h2>
 
-<li>Sem erros de tempo de execução na prática. Não null. Não undefinedé uma função.</li>
+<li>Sem erros de tempo de execução na prática. Sem <i>null</i>. Sem <i>undefined</i>.</li>
 <li>Mensagens de erro amigáveis ​​que o ajudam a adicionar recursos mais rapidamente.</li>
 <li>Código que bem arquitetado permanece bem arquitetado como seu aplicativo cresce.</li>
 <li>Validação semântica automaticamente aplicada para todos os pacotes Elm.</li>

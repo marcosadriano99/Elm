@@ -18,10 +18,12 @@ Elm utiliza o paradigma de programação FRP (Functional Reactive Programming), 
 Para instalar a linguagem Elm é necessário o Node.Js para proceder à sua compilação. A infra-estrutura Elm também disponibiliza um gestor de pacotes, ferramenta de testes unitários, REPL (Read, Evaluate, Print, Loop), debugger e instaladores para Windows e Mac que podem ser descarregados em http://elm-lang.org. A instalação em Ubuntu é feita com os seguintes comandos, começando por instalar o Node.Js seguida da instalação de Elm:
 </p>
 ~~~~
+
 $ curl -sL https://deb.nodesource.com/setup_5.x | sudo -E 
 bash -
 $ sudo apt-get install -y nodejs
 $ npm install -g elm
+
 ~~~~
 
 <p>

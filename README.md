@@ -90,6 +90,8 @@ x = "hello, world"
 
 <h3>Estruturas de controle condicional</h3>
 
+<p>Quando você deseja ter comportamento condicional em Elm, você usa uma expressão if.</p>
+
 ~~~~
 if True then "hello" else "world"
 
@@ -99,6 +101,8 @@ if False then "hello" else "world"
 
 "world" : string
 ~~~~
+
+<p>As palavras-chave if then elsesão usadas para separar o condicional e os dois ramos para que não precisamos de parênteses ou chaves.</p>
 
 <h3>Registros</h3>
 
@@ -122,4 +126,26 @@ bill.name
 
 ~~~~
 
-<h3>Estruturas de repetição</h3>
+<h3>Funções</h3>
+
+<p>Vamos começar escrevendo uma função isNegativeque leva em algum número e verifica se é menor que zero. O resultado será <i>True</i> ou <i>False</i>.</p>
+
+~~~~
+
+isNegative n = n < 0
+
+<function>
+
+isNegative 4
+
+False
+
+isNegative -7
+
+True
+
+isNegative (-3 * -4)
+
+False
+
+~~~~

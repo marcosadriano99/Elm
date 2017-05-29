@@ -18,10 +18,10 @@ Para instalar a linguagem Elm é necessário o Node.Js para proceder à sua comp
 </p>
 <p>
 
-$ curl -sL https://deb.nodesource.com/setup_5.x | sudo -E 
-bash -
-$ sudo apt-get install -y nodejs
-$ npm install -g elm
+$ curl -sL https://deb.nodesource.com/setup_5.x | sudo -E <br>
+bash - <br>
+$ sudo apt-get install -y nodejs <br>
+$ npm install -g elm <br>
 
 
 </p>
@@ -29,7 +29,7 @@ $ npm install -g elm
 Agora estamos prontos para criar o nosso primeiro programa em Elm. A forma mais simples é partir de uma infra-estrutura e preencher apenas algumas funções. Esta infra-estrutura será responsável pelo fluxo de informação e pela recepção de sinais a que o nosso programa responderá (o tempo, o clicar e mover do rato e o teclado são exemplos de sinais). Os sinais registados no programa levarão a uma mudança no estado do programa e consequentemente a uma atualização da interface gráfica.
 </p>
 
-<p>Para ... </p>
+
 
 ~~~~
 

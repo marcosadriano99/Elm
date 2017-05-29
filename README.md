@@ -106,6 +106,8 @@ if False then "hello" else "world"
 
 <h3>Registros</h3>
 
+<p>Um registro é um conjunto de pares chave-valor, semelhante a objetos em JavaScript ou Python. Você vai achar que eles são extremamente comuns e úteis em Elm! Vamos ver alguns exemplos básicos.</p>
+
 ~~~~
 
 point = { x = 3, y = 4 }
@@ -125,6 +127,8 @@ bill.name
 "Gates" : string
 
 ~~~~
+
+<p>Assim, podemos criar registros usando chaves e campos de acesso usando um ponto. Elm também tem uma versão de acesso de registro que funciona como uma função. Iniciando a variável com um ponto, você está dizendo, por favor, acesse o campo com o seguinte nome . Isso significa que .nameé uma função que obtém o namecampo do registro.</p>
 
 <h3>Funções</h3>
 

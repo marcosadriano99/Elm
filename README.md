@@ -155,7 +155,7 @@ List.sort numeros
 
 <h3>Funções</h3>
 
-<p>Vamos começar escrevendo uma função isNegative que leva em algum número e verifica se é menor que zero. O resultado será <i>True</i> ou <i>False</i>.</p>
+Função isNegative que leva em algum número e verifica se é menor que zero. O resultado será <i>True</i> ou <i>False</i>.</p>
 
 ~~~~
 
@@ -165,14 +165,14 @@ isNegative n = n < 0
 
 isNegative 4
 
-False
+False : bool
 
 isNegative -7
 
-True
+True : bool
 
 isNegative (-3 * -4)
 
-False
+False : bool
 
 ~~~~

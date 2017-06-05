@@ -102,7 +102,7 @@ if False then "hello" else "world"
 "world" : string
 ~~~~
 
-<p>As palavras-chave if then elsesão usadas para separar o condicional e os dois ramos para que não precisamos de parênteses ou chaves.</p>
+<p>As palavras-chave if then else são usadas para separar o condicional e os dois ramos para que não precisamos de parênteses ou chaves.</p>
 
 <h3>Registros</h3>
 

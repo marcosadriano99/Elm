@@ -81,7 +81,7 @@ x = "hello, world"
 
 <h3>Estruturas de controle condicional</h3>
 
-<p>Quando você deseja ter comportamento condicional em Elm, você usa uma expressão if.</p>
+<p>Quando você deseja ter comportamento condicional em Elm, você usa expressões if then else.</p>
 
 ~~~~
 if True then "hello" else "world"
@@ -123,7 +123,7 @@ bill.name
 
 <h3>Listas</h3>
 
-<p>As listas são uma das estruturas de dados mais comuns em Elm. Eles mantêm uma seqüência de coisas relacionadas, semelhante a matrizes em JavaScript.</p>
+<p>As listas são uma das estruturas de dados mais comuns em Elm. Eles mantêm uma seqüência de dados relacionados, semelhante a matrizes em JavaScript.</p>
 
 ~~~~
 

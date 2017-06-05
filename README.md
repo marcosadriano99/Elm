@@ -39,6 +39,7 @@ $ npm install -g elm <br>
 <li>Validação semântica automaticamente aplicada para todos os pacotes Elm.</li>
 </ul>
 
+<br/>
 
 <p>Elm não tenta ter nenhuma relação com o JavaScript, diferentemente das outras linguagens que são compiladas pra ele. É uma linguagem completamente distinta, com seu ecossistema próprio, e que por acaso precisa do JavaScript para poder rodar nos browsers.</p>
 
@@ -183,46 +184,46 @@ False : bool
 <h2> Gerenciamento de erros </h2>
 <p> Uma das grandes vantagens de Elm é que não te runtime exceptions, ou seja, jamais veremos erros de execução na prática, aquele velho conhecido: </p>
 
-~~~
+~~~~~
 uncaught TypeError: undefined is not a function
-~~~
+~~~~~
 
 <p>O Elm trata os erros como dados (data), e existem três estruturas de dados que o ajudam a lidar com o erro de duas formas diferentes, elas são:</p>
 
-~~~
+~~~~~
 Maybe <br>
 Result <br>
 Task <br>
-~~~
+~~~~~
 
 <p>O objetivo do Result e do Task são os mesmos, tornar clara a possibilidade de falha e garantir que ela seja tratada adequadamente, a diferença é que o Task também funciona quando temos um código que funciona de forma assincrona.</p>
 
 <p> Um exemplo de utilização do Maybe é a implementação de campos opcionais. Ex:</p>
 
-~~~
+~~~~~
 Type alias User = <br>
 { name : String <br>
 , age : Maybe : Int <br>
 }
-~~~
+~~~~~
 
 <p> O diferencial do Elm é que se, por exemplo, fosse necessário verificar a idade de um user, seria impossível escrever código onde você esquece que os usuários podem não ter uma idade, o Elm pode se certificar disso, por meio da obrigação do uso da empressão "case", que é necessária para lidar com os dados, porque você precisa usar os construtores "nothing" ou "just" para cria-lo. Isso faz com que o compilador possa identificar as possibilidades.</p>
 
 <h2> Compilador inteligente <h2>
 <p> Um dos pontos mais fantásticos do Elm são as mensagens de erro do compilador. Segue o exemplo em que digitamos butto ao invés de button:</p>
 
-~~~
+~~~~~
 view mode = <br>
 div [] [butto [onClick Decrement] [text "-"] ]
-~~~
+~~~~~
 
 <p>mensagem de erro:</p>
 
-~~~
+~~~~~
 cannot find variable 'butto'<br>
 2| [butto [onClick Decrement] [text "-"]<br> 
    ^^^^<br>
 Maybe you want one of the following?<br>
 button<br>
 html.button
-~~~
+~~~~~

@@ -30,16 +30,6 @@ $ npm install -g elm <br>
 ~~~~
 
 </p>
-<p>
-Agora estamos prontos para criar o nosso primeiro programa em Elm. A forma mais simples é partir de uma infra-estrutura e preencher apenas algumas funções. Esta infra-estrutura será responsável pelo fluxo de informação e pela recepção de sinais a que o nosso programa responderá (o tempo, o clicar e mover do rato e o teclado são exemplos de sinais). Os sinais registados no programa levarão a uma mudança no estado do programa e consequentemente a uma atualização da interface gráfica.
-</p>
-
-
-
-
-
-
-
 
 <h2>Elm funcional</h2>
 
@@ -85,6 +75,7 @@ x = "hello, world"
 | *  | Multiplicação  |
 | /  | Divisão  |
 | // | Divisão inteira |
+| ^ | Exponenciação |
 | %  | Módulo |
 | Negate | Negativo |
 
@@ -129,17 +120,6 @@ bill.name
 ~~~~
 
 <p>Assim, podemos criar registros usando chaves e campos de acesso usando um ponto. Elm também tem uma versão de acesso de registro que funciona como uma função. Iniciando a variável com um ponto, você está dizendo, por favor, acesse o campo com o seguinte nome . Isso significa que .nome uma função que obtém o nome do registro.</p>
-
-<h2>Comparando registros e objetos</h2>
-
-<p>Registros em Elm são semelhantes aos objetos em JavaScript, mas existem algumas diferenças cruciais. As principais diferenças são que com registros:</p>
-
-<p>Você não pode pedir um campo que não existe.
-Nenhum campo nunca será indefinido ou nulo.
-Não é possível criar registros recursivos com uma palavra-chave thisou self.
-Elm incentiva uma estrita separação de dados e lógica, ea thiscapacidade de dizer é usado principalmente para quebrar essa separação. Este é um problema sistêmico em linguagens orientadas a objetos que Elm está deliberadamente evitando.</p>
-
-<p>Os registros também suportam a digitação estrutural, o que significa que os registros em Elm podem ser usados em qualquer situação, desde que os campos necessários existam. Isso nos dá flexibilidade sem comprometer a confiabilidade.</p>
 
 <h3>Funções</h3>
 

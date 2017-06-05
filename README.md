@@ -128,21 +128,27 @@ bill.name
 ~~~~
 
 nomes = [ "Marcos", "Paulo", "Jules" ]
+
 ["Alice","Bob","Chuck"] : string
 
 List.isEmpty nomes
+
 False : bool
 
 List.length nomes
+
 3 : int
 
 List.reverse nomes
+
 ["Jules","Paulo","Marcos"] : List string
 
 numeros = [1,4,3,2]
+
 [1,4,3,2] : List number
 
 List.sort numeros
+
 [1,2,3,4] : List number
 
 ~~~~

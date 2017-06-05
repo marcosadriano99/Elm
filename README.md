@@ -128,7 +128,7 @@ bill.name
 
 ~~~~
 
-<p>Assim, podemos criar registros usando chaves e campos de acesso usando um ponto. Elm também tem uma versão de acesso de registro que funciona como uma função. Iniciando a variável com um ponto, você está dizendo, por favor, acesse o campo com o seguinte nome . Isso significa que .nameé uma função que obtém o namecampo do registro.</p>
+<p>Assim, podemos criar registros usando chaves e campos de acesso usando um ponto. Elm também tem uma versão de acesso de registro que funciona como uma função. Iniciando a variável com um ponto, você está dizendo, por favor, acesse o campo com o seguinte nome . Isso significa que .nome uma função que obtém o nome do registro.</p>
 
 <h2>Comparando registros e objetos</h2>
 

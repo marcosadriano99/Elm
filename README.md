@@ -121,6 +121,32 @@ bill.name
 
 <p>Assim, podemos criar registros usando chaves e campos de acesso usando um ponto. Elm também tem uma versão de acesso de registro que funciona como uma função. Iniciando a variável com um ponto, você está dizendo, por favor, acesse o campo com o seguinte nome . Isso significa que .nome uma função que obtém o nome do registro.</p>
 
+<h3>Listas</h3>
+
+<p>As listas são uma das estruturas de dados mais comuns em Elm. Eles mantêm uma seqüência de coisas relacionadas, semelhante a matrizes em JavaScript.</p>
+
+~~~~
+
+nomes = [ "Marcos", "Paulo", "Jules" ]
+["Alice","Bob","Chuck"] : string
+
+List.isEmpty nomes
+False : bool
+
+List.length nomes
+3 : int
+
+List.reverse nomes
+["Jules","Paulo","Marcos"] : List string
+
+numeros = [1,4,3,2]
+[1,4,3,2] : List number
+
+List.sort numeros
+[1,2,3,4] : List number
+
+~~~~
+
 <h3>Funções</h3>
 
 <p>Vamos começar escrevendo uma função isNegative que leva em algum número e verifica se é menor que zero. O resultado será <i>True</i> ou <i>False</i>.</p>

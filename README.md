@@ -84,9 +84,9 @@ x = "hello, world"
 | - | Subtração  |
 | *  | Multiplicação  |
 | /  | Divisão  |
+| // | Divisão inteira |
 | %  | Módulo |
-| ++  | Incremento  |
-| --  | Decremento  |
+| Negate | Negativo |
 
 <h3>Estruturas de controle condicional</h3>
 

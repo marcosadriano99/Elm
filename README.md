@@ -123,7 +123,7 @@ bill.name
 
 <h3>Listas</h3>
 
-<p>As listas são uma das estruturas de dados mais comuns em Elm. Eles mantêm uma seqüência de dados relacionados, semelhante a matrizes em JavaScript.</p>
+<p>As listas são uma das estruturas de dados mais comuns em Elm. Elas mantêm uma seqüência de dados relacionados, semelhante a matrizes em JavaScript.</p>
 
 ~~~~
 

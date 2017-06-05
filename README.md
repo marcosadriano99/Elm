@@ -143,7 +143,7 @@ Elm incentiva uma estrita separação de dados e lógica, ea thiscapacidade de d
 
 <h3>Funções</h3>
 
-<p>Vamos começar escrevendo uma função isNegativeque leva em algum número e verifica se é menor que zero. O resultado será <i>True</i> ou <i>False</i>.</p>
+<p>Vamos começar escrevendo uma função isNegative que leva em algum número e verifica se é menor que zero. O resultado será <i>True</i> ou <i>False</i>.</p>
 
 ~~~~
 
